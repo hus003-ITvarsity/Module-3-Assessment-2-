@@ -1,0 +1,329 @@
+/*============= HOME PAGE =============*/
+#home-logo{
+    width: 100%;
+    display: block;
+    margin: auto;
+    padding: 5px 10px 10px 10px;
+    
+   
+}
+
+/*================ HTML ================*/
+
+html{
+    height: 100%;
+}
+
+/*================ BODY ================*/
+
+body{
+    font-family: sans-serif;
+    margin: 0;
+    padding: 0;
+    height: 100%;
+}
+
+.body-home{
+    background-image: url(images/background-02-landscape.png);
+    background-position: center;
+    background-attachment: fixed;
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+.body-meals{
+    background-image: url(images/background-landscape-plain.png);
+    background-position: center;
+    background-attachment: fixed;
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+
+/*================ HEADER ================*/
+
+.header {
+    background-color: cornsilk;
+    width: 100%;
+    height: 190px;
+    top: 0;
+    position: fixed;
+    overflow: hidden;
+    text-align: center;
+}
+
+
+
+.header img{
+    width: 500px;
+    padding-top: 14px;
+    padding-right: 25px;
+}
+
+/*============= HOME PAGE MENU=============*/
+
+.home-menu-item{
+    text-decoration: none;
+    text-transform: uppercase;
+    
+    color: red;
+    font-size: 25px;
+    font-weight: bold;
+    text-align: center;
+    border: 5px solid orange;
+    
+    display: block;
+    margin: auto;
+    margin-top: 20px;
+    margin-bottom: 10px;
+    width: 80%;
+}
+
+/*============= MEALS PAGE MENU=============*/
+
+#meals{
+    padding-top: 230px;
+}
+
+.meals-list a{
+    text-decoration: none;
+}
+
+.meals-list-item {
+    border: 5px solid red;
+    margin: 10px;
+}
+
+.meals-list-item h1{
+    font-weight: bold;
+    font-size: 20px;
+    color: orange;
+    padding: 10px;
+}
+
+.meals-list-item p{
+    font-size: 13px;
+    font-style: italic;
+    color: firebrick;
+    margin-top: -7px;
+    padding-left: 10px;
+}
+
+.meals-list-item i{
+    float: right;
+    color: 1a1a1a;
+    padding-right: 20px;
+}
+
+.meals-list img{
+    width: 5%;
+    padding-left: 10px;
+    padding-bottom: 10px;
+    
+}
+
+
+/*============= FOOD PAGE =============*/
+
+#food{
+    padding-top: 50px;
+}
+
+.food-details img{
+    width: 100%;
+    padding-top: 120px;
+}
+
+.food-details h1{
+    font-size: 25px;
+    text-align: center;
+    border: 5px solid red;
+    margin: 10px;
+    padding: 5px;
+}
+
+.food-details-info{
+    margin-left: 25px;
+    margin-right: 25px;
+}
+
+.food-details h2{
+    font-size: 20px;
+    text-align: left;
+    margin: 0;
+    margin-left: 10px;
+    color: black;
+}
+
+.food-details-info p{
+    font-size: 13px;
+    display: inline-block;
+    color: darkorange;
+}
+
+.food-details-description h3{
+    padding-left: 28px;
+    color:red;
+    font-size: 18px;
+    
+}
+
+.meal-details-extras label{
+    line-height: 25px;
+    margin-left: 10px;
+    font-size: 13px;
+}
+.food-details-description{
+    text-align: center;
+    border: 5px solid red;
+    margin: 10px;
+    padding: 5px;
+    background-color: #feeee5;
+}
+
+.meal-details-extras h2{
+    font-size: 15px;
+    padding-bottom: 5px;
+    padding-top: 10px;
+    font-family: monospace;
+    text-decoration: underline;
+}
+/*============= ORDER BUTTON =============*/
+
+.order-button{
+    background-color: darkred;
+    color: white;
+    padding: 15px 30px;
+    border: none;
+    font-size: 15px;
+    font-weight: bold;
+    cursor: pointer;
+    border-radius: 5px;
+}
+.order-button:hover{
+    background-color: red;
+}
+
+.button-align{
+    text-align: center;
+    margin: 50px 0;
+}
+
+/*============= EXTRA NOTES =============*/
+
+.notes input{
+    width: 100%;
+    height: 25px;
+    margin: 12px 0;
+    border: 1px solid red;
+}
+
+
+/*============= ORDER RECIEVED =============*/
+
+.order-recieved-box{
+    text-decoration: none;
+    background: rgba(255, 255, 255, .8);
+    width: 90%;
+    height: 700px;
+    display: block;
+    margin: auto;
+    margin-top: 12px;
+    padding: 1px;
+}
+
+.order-recieved-box h3{
+    font-size: 30px;
+    border: 5px solid red;
+    font-weight: 900;
+    margin-top: 0;
+    text-align: center !important;
+}
+.order-recieved-box p{
+    font-size: 15px;
+    color: red;
+    text-decoration: underline;
+    font-weight: 900;
+    text-align: center !important;
+}
+
+.order-box img{
+    width: 50%;
+    padding-left: 103px
+}
+
+/*============= FONT AWESOME =============*/
+
+.header i{
+    font-size: 15px;
+    color: red;
+    float: left;
+    padding: 5px 0px 0px 5px;
+}
+
+/*============= RESPONSIVE LAYOUT =============*/
+
+@media only screen and (min-width:600px) {
+    #meals {
+        width: 80%;
+        margin: auto;
+    }
+    
+    #food{
+        width: 80%;
+        margin: auto;
+    }
+}
+
+@media only screen and (min-width:1000px) {
+     #food {
+        width: 60%;
+        margin: auto;
+    }
+    
+    #food{
+        width: 60%;
+        margin: auto;
+    }
+    
+    @media only screen and (min-width:1500px) {
+     #meals {
+        width: 40%;
+        margin: auto;
+    }
+    
+    #food{
+        width: 40%;
+        margin: auto;
+    }
+} 
+    
+@media only screen and (min-width:720px) {
+    .body-home{
+       background-image: url(images/background-02-potrait.png) 
+    }
+    .body-meals {
+        background-image: url(images/background-portrait-plain.png)
+    }
+    }
+    
+    @media (min-width: 768px) {
+  .order-recieved-box {
+    width: 600px;  
+    margin-top: 50px;  
+  }
+
+  .order-recieved-box h3 {
+    font-size: 36px;  
+  }
+
+  .order-recieved-box p {
+    font-size: 16px;   
+  }
+
+  .order-box img {
+    width: 40%;  
+    padding-left: 190px;  
+    }
+}
+
+
+
